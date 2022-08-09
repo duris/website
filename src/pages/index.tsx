@@ -65,7 +65,7 @@ const Home: NextPage = () => {
           <span><h2></h2><PencilIcon className="fIcon"/><div className="feature">Designs from sratch made to look however you want.</div></span>
           <span><h2></h2><CodeIcon className="fIcon"/><div className="feature">Custom coded with a modern stack using NexJS.</div></span>
           <span><h2> </h2><CogIcon className="fIcon"/><div className="feature">Customized full stack features availabe at request.</div></span>
-          <span><h2> </h2><LockClosedIcon className="fIcon"/><div className="feature">Encrypted with a free SSL certificate from Vercel.</div></span>
+          <span><h2> </h2><LockClosedIcon className="fIcon"/><div className="feature">Encrypted by a 256 bit SSL certificate from Vercel.</div></span>
         
         </div>
         
