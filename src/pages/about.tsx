@@ -2,6 +2,8 @@ import Header from "../components/Header"
 import Image from "next/image"
 import Footer from "../components/Footer"
 
+const aboutString = "Hello, I\'m Ross Duris and I've been designing websites for 6+ years. I\'m based around the greater Columbus, Ohio area. I\'ve always had a passion for learning new technologies and applyin them to projects."
+const secondString = "This site was built using NextJS, a modern technology stack that creates blazing fast load times with static page generation. Backed up in the cloud with Git version controll and deployed to Vercel\'s edge platform for continuous uptime."
 export default function About() {
  return(
   <>
@@ -24,9 +26,11 @@ export default function About() {
   </div>
   <div>
   <p className="float-left max-w-md p-10">
-    Hello, I&aposm Ross Duris and I&aposve been designing websites for 6+ years. I&aposm based around the greater Columbus, Ohio area. I&aposve always had a passion for learning new technologies and applyin them to projects.
+    {aboutString}
   </p>
-  <p className="float-left max-w-md p-10 pt-2">This site was built using NextJS, a modern technology stack that creates blazing fast load times with static page generation. Backed up in the cloud with Git version controll and deployed to Vercel&aposs edge platform for continuous uptime.</p>
+  <p className="float-left max-w-md p-10 pt-2">
+    {secondString}
+  </p>
   </div>
  </main>
  <Footer />
