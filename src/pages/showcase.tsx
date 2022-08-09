@@ -63,7 +63,7 @@ export default function Showcase() {
      </div>
      <div>
      <p className="p-8 text-sm sm:text-lg ">
-     TintLab was custom built with HTML, CSS, and JavaScript. They have sold to Ricart since development.
+     TintLab was custom built with HTML, CSS, and JavaScript. They have exited for profit since development.
      </p>
      <span className=" bg-[#f1f1f1] border shadow-sm p-2 rounded-lg text-gray-800 font-thin hover:bg-blue-300 cursor-pointer m-2 mb-10 ml-8 inline-block"><Link href="https://tintlabohio.com/">Visit Live Site</Link></span>
      </div>
