@@ -28,7 +28,7 @@ const Home: NextPage = () => {
 
     <div className="bg-blue-400 z-20 hover:bg-blue-300 cursor-pointer text-white 
               font-bold px-2 rounded inline-flex items-center absolute top-[42%] ml-10
-              sm:top-[96%] sm:ml-10 h-10 sm:hover:top-[95%] hover:top-[41%]  hover:shadow transition-all duration-300">
+              sm:top-[53%] sm:ml-10 h-10 sm:hover:top-[52%] hover:top-[41%]  sm:left-8 left-6 hover:shadow transition-all duration-300">
               <Link href="/contact">          
                 <span >Get in Touch</span>            
               </Link>
