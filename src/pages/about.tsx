@@ -2,7 +2,7 @@ import Header from "../components/Header"
 import Image from "next/image"
 import Footer from "../components/Footer"
 
-const aboutString = "Hello, I\'m Ross Duris and I've been designing websites for 6+ years. I\'m based around the greater Columbus, Ohio area. I\'ve always had a passion for learning new technologies and applyin them to projects."
+const aboutString = "Hello, I\'m Ross Duris and I've been designing websites for 6+ years. I\'ve always had a passion for learning modern development practices and applying them in new projects."
 const secondString = "This site was built using NextJS, a modern technology stack that creates blazing fast load times with static page generation. Backed up in the cloud with Git version controll and deployed to Vercel\'s edge platform for continuous uptime."
 export default function About() {
  return(
@@ -11,7 +11,7 @@ export default function About() {
  <main>
  <div className="text-4xl text-center text-gray-500 border-b">
   <h1 className="py-10 pb-4">About</h1>
-  <h2 className=" text-lg py-4 pb-10 font-thin"></h2>
+  <h2 className=" text-lg py-4 pb-10 font-thin">Continuous learning development approach</h2>
   
   </div>
 
