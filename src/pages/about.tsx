@@ -22,10 +22,12 @@ export default function About() {
       className="bg-gray-100 rounded-lg shadow-sm" 
       />      
   </div>
+  <div>
   <p className="float-left max-w-md p-10">
-    Hello, I'm Ross Duris and I've been designing websites for 6+ years. I'm based around the greater Columbus, Ohio area. I've always had a passion for learning new technologies and applyin them to projects.
+    Hello, I&aposm Ross Duris and I&aposve been designing websites for 6+ years. I&aposm based around the greater Columbus, Ohio area. I&aposve always had a passion for learning new technologies and applyin them to projects.
   </p>
-  <p className="float-left max-w-md p-10">This site was built using NextJS, a modern technology stack that creates blazing fast load times with static page generation. Backed up in the cloud with Git version controll and deployed to Vercel's edge platform for continuous uptime.</p>
+  <p className="float-left max-w-md p-10 pt-2">This site was built using NextJS, a modern technology stack that creates blazing fast load times with static page generation. Backed up in the cloud with Git version controll and deployed to Vercel&aposs edge platform for continuous uptime.</p>
+  </div>
  </main>
  <Footer />
  </>
