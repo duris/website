@@ -37,7 +37,7 @@ export default function Header(){
 function MyDropdown() {
   return (
     <Menu>
-          <div className="mTab  z-50">
+          <div className="mTab">
       <Menu.Button>
        <ChevronDownIcon height={30} width={30} className="hover:text-gray-500 transition-all duration-300" />
       </Menu.Button>
