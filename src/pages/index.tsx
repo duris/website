@@ -24,7 +24,7 @@ const Home: NextPage = () => {
     <Header/> 
     <main>
     <div className="sm:border-r sm:border-l">
-      <div className="bg-white w-full -z-10 h-72 sm:h-96 lg:h-[350px] border-b relative overflow-hidden"> 
+      <div className="bg-white w-full h-72 sm:h-96 lg:h-[350px] border-b relative overflow-hidden "> 
             <div className="bgElement  bg-gradient-to-l from-slate-200 to-white w-[900px] h-[900px] rounded-[500px] absolute -bottom-[50px] -right-[300px] hover:-right-[320px] transition-all duration-300"></div>
             {/* <ChevronLeftIcon className="h-16 bottom-32 z-20 text-gray-300 absolute left-1 hover:-left-1 transition-all duration-300 cursor-pointer hover:text-gray-200"/>
             <ChevronRightIcon className="h-16 bottom-32 z-20 text-gray-300 absolute right-1 hover:-right-1 transition-all duration-300 cursor-pointer hover:text-gray-200"/> */}
@@ -38,14 +38,14 @@ const Home: NextPage = () => {
               <h3 className=" absolute bottom-[24%] sm:bottom-[14%]
                sm:text-2xl text-lg italic text-slate-400 font-thin 
                opacity-60 ml-10 sm:ml-10 z-10 max-w-xs">Get in touch today for a free consultation.</h3>      
-              <Link href="/contact">
-            
-                <span className="bg-blue-400 z-20 hover:bg-blue-300 text-white 
+              <div className="bg-blue-400 z-20 hover:bg-blue-300 cursor-pointer text-white 
               font-bold px-2 rounded inline-flex items-center absolute top-[80%] ml-10
-              sm:top-[96%] sm:ml-10 h-10 sm:hover:top-[95%] hover:top-[79%]  hover:shadow transition-all duration-300">Get in Touch</span>
-              
-              
+              sm:top-[96%] sm:ml-10 h-10 sm:hover:top-[95%] hover:top-[79%]  hover:shadow transition-all duration-300">
+              <Link href="/contact">          
+                <span >Get in Touch</span>            
               </Link>
+              <ChatIcon width={30} height={30} className=" ml-2" />
+              </div>
             </div>
       </div>
 
