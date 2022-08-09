@@ -9,7 +9,7 @@ export default function Header(){
 
     return(
       <>
-      <header className="border">
+      <header className="border z-50">
         <div className=" mx-auto max-w-7xl">
           <div className=" p-3 text-xl mx-4 text-blue-400 hover:text-blue-500 transition-all duration-300 float-left font-semibold">
             <Link href="/">duris.io</Link>
@@ -37,7 +37,7 @@ export default function Header(){
 function MyDropdown() {
   return (
     <Menu>
-          <div className="mTab">
+          <div className="mTab z-50">
       <Menu.Button>
        <ChevronDownIcon height={30} width={30} className="hover:text-gray-500 transition-all duration-300" />
       </Menu.Button>
