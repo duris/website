@@ -37,7 +37,7 @@ export default function Header(){
 function MyDropdown() {
   return (
     <Menu>
-          <div className="mTab">
+          <div className="mTab  z-50">
       <Menu.Button>
        <ChevronDownIcon height={30} width={30} className="hover:text-gray-500 transition-all duration-300" />
       </Menu.Button>
@@ -54,43 +54,51 @@ function MyDropdown() {
       <Menu.Items>
         <Menu.Item className=" mt-[10px]inline-block hover:text-gray-500">
           {({ active }) => (
+            <div>
             <Link
-              className={`${active && 'bg-blue-500'}`}
+              className="mt-[10px] inline-block hover:text-gray-500"
               href="/"
             >
               Home
             </Link>
+            </div>
           )}
         </Menu.Item>
-        <br/>
+        
         <Menu.Item className=" mt-[10px] inline-block hover:text-gray-500">
           {({ active }) => (
+            <div>
             <Link
               className="linky"
               href="/about"
             >
               About
             </Link>
+            </div>
           )}
         </Menu.Item>
         <Menu.Item className=" mt-[10px] inline-block hover:text-gray-500">
           {({ active }) => (
+            <div>
             <Link
               className=" linky"
               href="/contact"
             >
               Contact
             </Link>
+            </div>
           )}
         </Menu.Item>
         <Menu.Item className=" mt-[10px] inline-block hover:text-gray-500">
           {({ active }) => (
+            <div>
             <Link
               className="linky"
               href="/showcase"
             >
               Showcase
             </Link>
+            </div>
           )}
         </Menu.Item>
       </Menu.Items>

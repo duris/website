@@ -24,13 +24,13 @@ const Home: NextPage = () => {
     <Header/> 
     <main>
     <div className="sm:border-r sm:border-l">
-      <div className="bg-white w-full h-72 sm:h-96 lg:h-[350px] border-b relative overflow-hidden "> 
-            <div className="bgElement  bg-gradient-to-l from-slate-200 to-white w-[900px] h-[900px] rounded-[500px] absolute -bottom-[50px] -right-[300px] hover:-right-[320px] transition-all duration-300"></div>
+      <div className="bg-trasnparent w-full h-72 sm:h-96 lg:h-[350px] border-b relative overflow-hidden "> 
+            {/* <div className="bgElement z-10 bg-gradient-to-r from-slate-200 to-white w-[900px] h-[900px] rounded-[500px] absolute -bottom-[50px] -right-[300px] hover:-right-[320px] transition-all duration-300"></div> */}
             {/* <ChevronLeftIcon className="h-16 bottom-32 z-20 text-gray-300 absolute left-1 hover:-left-1 transition-all duration-300 cursor-pointer hover:text-gray-200"/>
             <ChevronRightIcon className="h-16 bottom-32 z-20 text-gray-300 absolute right-1 hover:-right-1 transition-all duration-300 cursor-pointer hover:text-gray-200"/> */}
             
             <div className="sm:ml-10 relative h-72 ml-[26px]">
-              <p className=" sm:text-4xl font sm:max-w-xl z-10 relative font-extrabold tracking-tight text-gray-900 text-2xl max-w-xs sm:p-10 pt-6 p-10">Beautiful websites built on a modern technology stack.<br/>
+              <p className=" sm:text-4xl font sm:max-w-xl z-10 relative font-extrabold tracking-tight text-gray-900 text-2xl max-w-xs sm:p-10 pt-6 p-10">Great performing websites built on a modern technology stack.<br/>
               {/* <Link href="/about"><span className="text-blue-500 hover:text-blue-300 
               cursor-pointer font-extralight underline text-[16px] hover:ml-1 
               transition-all duration-300">Learn More</span></Link> */}
