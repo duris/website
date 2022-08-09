@@ -48,7 +48,7 @@ const Home: NextPage = () => {
       <div className="max-w-7xl mx-auto font-bold rounded relative">
         <button className="bg-blue-400 z-50 hover:bg-blue-300 cursor-pointer text-white absolute left-16 sm:left-20 -top-20 hover:-mt-1 transition-all duration-300 rounded-lg">
               <Link href="/contact">          
-                <span className=" float-left mt-3 px-2">Get in Touch<ChatIcon width={30} height={30} className=" float-right pb-1 mb-1" /></span>            
+                <span className=" float-left mt-3 px-2">Get in Touch<ChatIcon width={30} height={30} className=" float-right pb-1 mb-1 ml-2" /></span>            
               </Link>
               
           </button>
