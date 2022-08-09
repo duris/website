@@ -15,10 +15,10 @@ export default function Header(){
             <Link href="/">duris.io</Link>
           </div>
           <nav>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/showcase">Showcase</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/showcase">Showcase</Link></li>
           </nav>
           <div className=" sm:hidden float-right mt-4">      
           <MyDropdown />
@@ -54,43 +54,43 @@ function MyDropdown() {
       <Menu.Items>
         <Menu.Item className=" mt-[10px]inline-block hover:text-gray-500">
           {({ active }) => (
-            <a
+            <Link
               className={`${active && 'bg-blue-500'}`}
               href="/"
             >
               Home
-            </a>
+            </Link>
           )}
         </Menu.Item>
         <br/>
         <Menu.Item className=" mt-[10px] inline-block hover:text-gray-500">
           {({ active }) => (
-            <a
-              className={`${active && 'bg-blue-500'}`}
+            <Link
+              className="linky"
               href="/about"
             >
               About
-            </a>
+            </Link>
           )}
         </Menu.Item>
         <Menu.Item className=" mt-[10px] inline-block hover:text-gray-500">
           {({ active }) => (
-            <a
-              className={`${active && 'bg-blue-500'}`}
+            <Link
+              className=" linky"
               href="/contact"
             >
               Contact
-            </a>
+            </Link>
           )}
         </Menu.Item>
         <Menu.Item className=" mt-[10px] inline-block hover:text-gray-500">
           {({ active }) => (
-            <a
-              className={`${active && 'bg-blue-500'}`}
+            <Link
+              className="linky"
               href="/showcase"
             >
               Showcase
-            </a>
+            </Link>
           )}
         </Menu.Item>
       </Menu.Items>

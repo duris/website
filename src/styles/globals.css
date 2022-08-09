@@ -66,4 +66,7 @@
   .mItem{
     @apply border-b 
   }
+  .linky{
+    @apply float-right bg-red-400
+  }
 }
