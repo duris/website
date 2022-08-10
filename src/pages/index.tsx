@@ -65,10 +65,10 @@ const Home: NextPage = () => {
           </div>
 
           <div className="text-gray-700 border-b p-10 font-thin">
-          <p>Modern technology stacks give the best performance possible. </p>
+          <p>A modern technology stack gives the best performance possible. </p>
         </div>
 
-      <div className="h-[900px]">
+      
 
         <div className="grid grid-cols-2 x sm:grid-cols-4 pt-2 mx-4 bg-white text-center welcomeFeature">
         <span><h2> </h2><DeviceMobileIcon className="fIcon"/><div className="feature">Fully responsive desgins that work on all devices.</div></span>
@@ -85,13 +85,20 @@ const Home: NextPage = () => {
         
         
         
-       
+        <div className="text-gray-700 border-t p-10 font-thin">
+          <p className="m-1">Take a tour of the technology: 
+            <div className=" float-left text-fuchsia-500 font-semibold italic m-4 hover:ml-5 transition-all duration-300 mb-10 hover:underline">
+            <Link href="/showcase" >View the Showcase</Link>
+            </div>
+          </p>
+        </div>
 
-        <Footer />
-      </div>
+      
+      
     
 
     </main>
+    <Footer />
   </>          
   );
 };
