@@ -85,7 +85,7 @@ const Home: NextPage = () => {
         
         
         <div className="text-gray-700 border-t p-10 font-thin grid grid-cols-2 relative">
-          <p>Take a tour of the technology under to hood. </p>
+          <p>Take a tour of the technology under the hood. </p>
           <span className=" italic font-bold float-right pr-10 mr-20  text-gray-400">
             <Link href="/contact">Get Started</Link>     
             <ChevronRightIcon className="h-10 z-20 text-gray-300 float-right hover:-right-1 transition-all duration-300 cursor-pointer hover:text-gray-200 inline-block -mt-2  sm:mr-20 -mr-20"/>        
