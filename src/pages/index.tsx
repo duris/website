@@ -84,20 +84,17 @@ const Home: NextPage = () => {
         </div>
         
         
-        
-        <div className="text-gray-700 border-t p-10 font-thin">
-          <p className="m-1">Take a tour of the technology: 
-            <div className=" float-left text-fuchsia-500 font-semibold italic m-4 hover:ml-5 transition-all duration-300 mb-10 hover:underline">
-            <Link href="/showcase" >View the Showcase</Link>
-            </div>
-          </p>
-        </div>
-
-      
-      
-    
+        <div className="text-gray-700 border-t p-10 font-thin grid grid-cols-2 relative">
+          <p>Take a tour of the technology under to hood. </p>
+          <span className=" italic font-bold float-right pr-10 mr-20  text-gray-400">
+            <Link href="/contact">Get Started</Link>     
+            <ChevronRightIcon className="h-10 z-20 text-gray-300 float-right hover:-right-1 transition-all duration-300 cursor-pointer hover:text-gray-200 inline-block -mt-2  sm:mr-20 -mr-20"/>        
+          </span>       
+      </div>
 
     </main>
+
+
     <Footer />
   </>          
   );

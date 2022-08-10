@@ -49,8 +49,17 @@ export default function Contact() {
       />      
   </div>
   <div>
-
-  <div className="p-8 mx-auto w-full">      
+<div className=" p-6">
+  <h2 className=" text-xl text-gray-500">Email:</h2>
+  <span className=" text-blue-500 text-2xl inline-block mt-2 hover:text-blue-300">
+  <Link href="mailto:ross@duris.io">hello@duris.io</Link>
+  </span>
+</div>
+<div className="mt-4  p-6">
+  <h2 className=" text-xl text-gray-500">Phone:</h2>
+  <span className=" text-blue-500 text-2xl inline-block mt-2 hover:text-blue-300"><Link href="#">(614) 394-2530</Link></span>
+</div>
+  {/* <div className="p-8 mx-auto w-full">      
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="user_name" className="border w-full"/>
@@ -63,7 +72,7 @@ export default function Contact() {
           <br/>
           <input type="submit" value="Send" className="bg-blue-400 p-2 px-4 rounded-lg text-white w-full mt-4 cursor-pointer"/>
         </form>
-      </div>
+      </div> */}
 
   </div>
 
