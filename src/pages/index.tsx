@@ -36,6 +36,7 @@ const Home: NextPage = () => {
               height={500}
               width={520}
             />
+            
             </div>
             {/* <ChevronLeftIcon className="h-16 bottom-32 z-20 text-gray-300 absolute left-1 hover:-left-1 transition-all duration-300 cursor-pointer hover:text-gray-200"/>
             <ChevronRightIcon className="h-16 bottom-32 z-20 text-gray-300 absolute right-1 hover:-right-1 transition-all duration-300 cursor-pointer hover:text-gray-200"/> */}
@@ -87,7 +88,7 @@ const Home: NextPage = () => {
         <div className="text-gray-700 border-t p-10 font-thin grid grid-cols-2 relative">
           <p>Take a tour of the technology under the hood. </p>
           <span className=" italic font-bold float-right pr-10 mr-20  text-gray-400">
-            <Link href="/contact">Get Started</Link>     
+            <Link href="/contact">Coming Soon</Link>     
             <ChevronRightIcon className="h-10 z-20 text-gray-300 float-right hover:-right-1 transition-all duration-300 cursor-pointer hover:text-gray-200 inline-block -mt-2  sm:mr-20 -mr-20"/>        
           </span>       
       </div>
