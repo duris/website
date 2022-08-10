@@ -10,7 +10,7 @@ export default function Showcase() {
  <main>
   <div className="text-4xl text-center text-gray-500 border-b">
   <h1 className="py-10 pb-4">Showcase</h1>
-  <h2 className=" text-lg py-4 pb-10 font-thin">Preview of NextJS websites and prior clients showcase.</h2>
+  <h2 className=" text-lg py-4 pb-10 font-thin">Preview of NextJS and prior clients</h2>
   </div>
 
   <div className="sm:px-10">

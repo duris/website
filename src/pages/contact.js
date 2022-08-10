@@ -7,6 +7,7 @@ import Mailer from "../components/mailer"
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+const headerMsg = "Let\'s talk about your next project"
 
 export default function Contact() {
   const form = useRef();
@@ -35,7 +36,7 @@ export default function Contact() {
  <main>
  <div className="text-4xl text-center text-gray-500 border-b mx-auto">
   <h1 className="py-10 pb-4">Contact</h1>
-  <h2 className=" text-lg py-4 pb-10 font-thin">Let's talk about your next project</h2>
+  <h2 className=" text-lg py-4 pb-10 font-thin">{headerMsg}</h2>
   
   </div>
 <div className="grid grid-cols-1 sm:grid-cols-2 mx-auto float-none">
