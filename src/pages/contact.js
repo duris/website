@@ -9,13 +9,18 @@ import emailjs from '@emailjs/browser';
 
 const headerMsg = "Let\'s talk about your next project"
 
-export default function Contact() {
+export default function Contact(props) {
+
+  const service_id = props.emailjs_service_id
+  const template_id = props.emailjs_template_id
+  const public_id = props.emailjs_public_key
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, form.current, process.env.YOUR_PUBLIC_KEY)
+    emailjs.sendForm(service_id,template_id, form.current,public_id)
       .then((result) => {
           console.log(result.text);
           if(result.text === "OK") {
@@ -84,3 +89,18 @@ export default function Contact() {
  )
 }
 
+export async function getServerSideProps() {
+
+  const emailjs_service_id = process.env.YOUR_SERVICE_ID
+  const emailjs_template_id = process.env.YOUR_TEMPLATE_ID
+  const emailjs_public_key = process.env.YOUR_PUBLIC_KEY
+
+
+  return {
+    props: {
+      emailjs_service_id: emailjs_service_id,
+      emailjs_template_id: emailjs_template_id,
+      emailjs_public_key: emailjs_public_key,
+    }
+  }
+}
